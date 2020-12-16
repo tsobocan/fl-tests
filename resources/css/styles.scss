@@ -1,0 +1,44 @@
+
+.f-btn-golden:hover {
+  color: #fff;
+  background-color: $golden_4;
+}
+
+.f-btn-golden {
+  color: black;
+  background-color: $golden_2;
+}
+
+.f-btn-sm {
+  font-size: 9px;
+  padding: 3px;
+  line-height: 0.6
+}
+
+.f-btn-md {
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+.f-table thead th:first-of-type{
+  border-left: none;
+}
+
+.f-table thead th{
+  vertical-align: top;
+  color: $table_1;
+  border-left: 1px solid $table_2;
+  border-top: none;
+  font-weight: 300;
+  font-size: 12px;
+  border-bottom: none;
+}
+
+.-table thead th > small{
+  color: $table_3;
+}
+
+.ft-right{
+  text-align: right;
+}
