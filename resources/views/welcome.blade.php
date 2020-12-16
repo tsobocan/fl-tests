@@ -13,7 +13,7 @@
     <h6 class="mt-3">Note: you can try api on this <a href="/api/rate">url</a>. Add <code>date</code> parameter.</h6>
     <h6 class="mt-5">Query for assignment 2:</h6>
     
-    <code>SELECT value as RATE, GROUP_CONCAT(date SEPARATOR ', ') as Dates FROM rates GROUP BY value;</code>
+    <code>SELECT value as RATE, GROUP_CONCAT(date order by date ASC SEPARATOR ', ') as Dates FROM rates GROUP BY value;</code>
     
     
     <h6 class="mt-3">Assignment 3</h6>
